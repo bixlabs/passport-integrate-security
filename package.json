@@ -1,0 +1,29 @@
+{
+  "name": "passport-integrate-security",
+  "version": "1.0.0",
+  "description": "Handle passport authentication and authorization in one place",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bdd test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bixsolutions/passport-integrate-security.git"
+  },
+  "keywords": [
+    "Passport",
+    "Express",
+    "Authorization",
+    "Authentication",
+    "Roles"
+  ],
+  "author": "Julian Reyes Escrigas <jreyes@bix.com.uy>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bixsolutions/passport-integrate-security/issues"
+  },
+  "homepage": "https://github.com/bixsolutions/passport-integrate-security",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
