@@ -37,7 +37,7 @@ function SecurityMiddlware(connect, options) {
       "path": "/logout",
       "callback": function (req, res) {
         req.logout();
-        res.redirect(config.logout.redirect);
+        res.send();
       }
     }
   };
