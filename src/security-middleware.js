@@ -181,8 +181,8 @@ SecurityMiddlware.prototype.setupAccessControlList = function() {
       }
     }
 
-    // TODO: look for a way to throw HTTP Exceptions instead set status
-    //       Will be more compatible with multiples Content-Type headers
+    // TODO: look for a way to throw HTTP Exceptions instead set status.
+    //       It will be more compatible with different Content-Type headers
     if ((!hasRules && !input.anonymous) || allow) {
       next();
     } else if (input.anonymous) {
